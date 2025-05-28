@@ -1,1 +1,1 @@
-# Banking-Finance-Managment-App
+#Banking and Finance Managment App
