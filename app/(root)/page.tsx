@@ -1,12 +1,22 @@
-import React from 'react';
-
+import React from "react";
+import "../globals.css";
+import "../../components/HeaderBox";
+import HeaderBox from "../../components/HeaderBox";
+import Head from "next/head";
 const Page: React.FC = () => {
+  const loggedInUser = {firstName : "Zohaib", lastName: "Khalid"};
   return (
-    <div>
-      <h2>Welcome to the Banking Finance Management App</h2>
-      <p>Manage your finances efficiently and securely.</p>
-      <h1>Say HI</h1>
-    </div>
+    <section className="home">
+      <div className="home-content">
+        <HeaderBox 
+        type="greeting"
+        title = "Welcome" 
+        user={loggedInUser?.firstName || "Guest"}
+        subtitle="Your banking experience starts here, Access and Manage your transactions"
+        />
+
+      </div>
+    </section>
   );
 };
 

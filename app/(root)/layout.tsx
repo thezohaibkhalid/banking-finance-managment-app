@@ -1,4 +1,4 @@
- 
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -6,8 +6,8 @@ export default function RootLayout({
 }>) {
   return (
     <main>
-        SIDEBAR
-        {children}
+      <h1 className="bg-blue-800">Sidebar</h1>
+      {children}
     </main>
   );
 }
