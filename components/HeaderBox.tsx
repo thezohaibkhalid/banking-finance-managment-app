@@ -15,7 +15,7 @@ const HeaderBox: React.FC<HeaderBoxProps> = ({
             <span className="text-bankGradient">{user}</span>
           )}
         </h1>
-        <p className="header-box-subtitle text-4xl">{subtitle}</p>
+        <p className="header-box-subtitle">{subtitle}</p>
       </header>
     </div>
   );

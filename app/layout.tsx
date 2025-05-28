@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${IBMPlexSerif.variable}`}>
-        <h6 className="text-3xl"></h6> {children}
+        {children}
       </body>
     </html>
   );
