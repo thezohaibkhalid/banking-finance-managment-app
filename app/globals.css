@@ -967,3 +967,14 @@
     display: none;
   }
 }
+
+.text-bankGradient {
+  color: var(--bank-gradient);
+}
+.color-bank-gradient {
+  background: linear-gradient(90deg, #0179FE 0%, #4893FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
